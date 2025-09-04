@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outfit Collage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      padding: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px; /* space between cards */
+      justify-content: center;
+    }
+
+    .card-container {
+      text-align: center;
+    }
+
+    .card {
+      width: 200px;
+      height: 280px;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .buy-btn:hover {
+      background: #444;
+    }
+  </style>
+</head>
+<body>
+  <h1>Outfit Collage</h1>
+  <div class="gallery">
+    
+    <div class="card-container">
+      <div class="card">
+        <img src="images/t-shirt.png" alt="Shirt">
+      </div>
+      <a href="https://www.marksandspencer.com/pure-cotton-crew-neck-boxy-t-shirt/p/clp60713032?color=SOFTWHITE#intid=pid_pg1pip48g4r3c1%7Cprodflag_plp_ts_QP_100+" class="buy-btn">BUY</a>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="images/jeans1.png" alt="Pants">
+      </div>
+      <a href="https://www.levi.com/US/en_US/clothing/women/jeans/straight/ribcage-full-length-womens-jeans/p/790780044" class="buy-btn">BUY</a>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="images/loafers.jpg" alt="Shoes">
+      </div>
+      <a href="https://www.ghbass.com/collections/womens-weejuns/products/bax1w010c01" class="buy-btn">BUY</a>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="images/blazer.jpg" alt="Blazer">
+      </div>
+      <a href="https://www.parttwo.com/global/lenipw-blazer--30308890-191725" class="buy-btn">BUY</a>
+    </div>
+
+    <div class="card-container">
+      <div class="card">
+        <img src="images/earings.jpg" alt="Shoes">
+      </div>
+      <a href="https://www.kay.com/tube-hoop-earrings-sterling-silver-40mm/p/V-514168107" class="buy-btn">BUY</a>
+    </div>
+
+     <div class="card-container">
+      <div class="card">
+        <img src="images/bag.jpg" alt="Bag">
+      </div>
+      <a href="https://www.stevemadden.com/products/bsmith-black?srsltid=AfmBOopY95zwGiakeaeuFErU0FbXnujteQ2NHg7uPf8uAhgNaENvZGsv" class="buy-btn">BUY</a>
+    </div>
+
+  </div>
+</body>
+</html>
